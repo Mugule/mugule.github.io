@@ -111,11 +111,16 @@ h1 {
 
 header {
     z-index: 10;
+    padding: 0.2rem 2.5rem;
     position: sticky; 
     top: 0;
     margin: 0;
-    padding: 0.2rem 2rem;
     background-color: #339988;
+}
+
+.header-container {
+    margin: 1em auto;
+    max-width: 720px;
 }
 
 footer {
