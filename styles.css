@@ -8,6 +8,7 @@ body {
     line-height: 1.5em;
     background-color: #494d7e;
     color : #fbf5ef;
+    margin: 0;
 }
 
 section {
@@ -23,6 +24,10 @@ section {
     src: url("Assets/Luciole_webfonts/Luciole-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* TEXT AND PICTURE */
