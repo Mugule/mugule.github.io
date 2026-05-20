@@ -1,3 +1,114 @@
-.red {
-    color : red;
+
+
+/* BODY */
+
+body {
+    font-family: "Luciole", sans-serif;
+    font-size: 150%;
+    line-height: 1.5em;
+    background-color: #494d7e;
+    color : #fbf5ef;
+}
+
+section {
+    padding: 1rem 2rem;
+}
+
+.second-color {
+    background-color: #272744;
+}
+
+@font-face {
+    font-family: "Luciole";
+    src: url("Assets/Luciole_webfonts/Luciole-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* TEXT AND PICTURE */
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.feature-text {
+    flex: 1;
+}
+
+.feature-image {
+    flex: 1;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* COMING SOON */
+
+.coming-soon-container {
+    border: 2px solid #c69fa5;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.coming-soon-text {
+    color :#c69fa5;
+}
+
+.coming-soon-image {
+    width: 180px;
+}
+
+/* SHOWCASE */
+
+.video-container {
+    border: 2px solid #c69fa5;
+    box-shadow: -10px 10px #272744;
+    width: 384px;
+    height: 288px;
+}
+
+/* HEADER AND FOOTER */
+
+h1 {
+    text-shadow: -3px 3px #272744;
+}
+
+header {
+    position: sticky; 
+    top: 0;
+    margin: 0;
+    padding: 0.2rem 2rem;
+    background-color: #339988;
+}
+
+footer {
+    line-height: 3rem;
+    padding: 0.2rem 2rem;
+    color: #c69fa5;
+}
+
+.footer-logo {
+    filter: invert(76%) sepia(29%) saturate(240%) hue-rotate(301deg) brightness(84%) contrast(87%);
+    height: 1.5em;
+}
+
+.footer-logo:hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column;
+    }
+    .coming-soon-container {
+        flex-direction: column;
+    }
 }
